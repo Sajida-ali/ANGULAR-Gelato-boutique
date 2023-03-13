@@ -1,0 +1,66 @@
+
+<div>
+  <button style="font-size:24px,"> <fa-icon [icon]="faInstagram"></fa-icon></button>
+  <button style="font-size:24px,"> <fa-icon [icon]="faTwitter"></fa-icon></button>
+  <button style="font-size:24px,"> <fa-icon [icon]="faFacebook"></fa-icon></button>
+</div>
+
+  <div class="shadow p-3 mb-5 bg-light rounded" style="font-family: 'Brush Script MT', cursive; font-size: 50px;text-align: center;
+  ">Best Sellers</div>
+
+  
+    
+  
+  
+  <div *ngFor="let anitas of a">
+    <div class="card" style="float: left; margin-left: 70px;">
+      <h3 style="font-family:'Brush Script MT', cursive;;" class="fonte" class="card-header">{{anitas.img}}</h3>
+      <div class="card-body">
+        <div style="width: 150px;height: 105px;">
+        <a>{{anitas.flavor}}</a>
+        <br>
+        <a style="font-family: 'Courier New', Courier, monospace  ;">{{anitas.prodcutName}}</a>
+        </div>
+        <div>
+        <a style="background-color: rgb(198, 118, 118);border: rgb(198, 118, 118);color: aliceblue;" (click)="orderIt()" class="btn btn-primary">Order it!</a>
+        </div>
+      </div>     
+    </div>
+  </div>
+  
+  
+  <div class="card-group" style="float: left;margin: 50px 0 80px 0">
+    <div class="card">
+      <div class="card-body">
+        <img class="img-thumbnail" [src]="icecream" alt="icecream">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <img class="img-thumbnail" [src]="donats" alt="donats">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <img class="img-thumbnail" [src]="Yogurt" alt="Yogurt">
+      </div>
+    </div>
+  </div>
+
+  <div *ngFor="let anitas of c">
+    <div class="card" style="float: left; margin-left: 70px;height: 550px;width: 300px;margin-left: 50px;margin-bottom: 20px;">
+      <h3 style="font-family:'Brush Script MT', cursive;;" class="fonte" class="card-header">{{anitas.prodcutName}}</h3>
+      <div class="card-body">
+        <div style="width: 150px;height: 105px;">
+         <img src = {{anitas.img}} alt="img" style="width: 250px; ; height: 320px;">
+        
+        <br>
+        <a style="font-family: 'Courier New', Courier, monospace  ;width: 300px">{{anitas.flavor}}</a>
+        </div>
+        <div>
+        </div>
+      </div>  
+      <a style="background-color: rgb(198, 118, 118);border: rgb(198, 118, 118);color: aliceblue;" (click)="orderIt()" class="btn btn-primary">Order it!</a>
+   
+    </div>
+  </div>

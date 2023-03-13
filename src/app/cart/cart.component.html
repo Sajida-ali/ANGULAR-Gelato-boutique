@@ -1,0 +1,59 @@
+<h2 class="text-center mb-4 shadow p-3 mb-5 bg-light rounded">My Cart </h2>
+<div>
+  <table class="shadow p-3 mb-5 bg-light rounded" style="width: 1200px; margin: auto;">
+    <tbody>
+      <tr>
+        <th>Gelato</th>
+        <th>Image</th>
+        <th>Gelato Code</th>
+        <th>Price</th>
+        <th></th>
+        <th>Total</th>
+        <th></th>
+      </tr>
+      <tr *ngFor = "let a of products">
+        <td>{{a.anitas.prodcutName}}</td>
+        <td><img class="img-thumbnail" src="{{a.anitas.img}}" alt=""></td>
+        <td>{{a.anitas.code}}</td>
+        <td>{{a.anitas.price}}</td>
+        <td><button (click)="subQty(a.anitas)">-</button></td>
+        <td>{{a.qty}}</td>
+        <td><button (click)="addQty(a.anitas)">+</button></td>
+      </tr>
+      <tr>
+      <td>Cart Total: {{total}}</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td> 
+      <td><button style="float: right;" (click)="clear()">CLEAR</button>
+      <button style="float: right;" (click)="pay()">Pay</button></td>
+    </tr> 
+    </tbody>
+  </table>
+
+</div>
+
+
+
+<!--h2 class="text-center mb-4 shadow p-3 mb-5 bg-light rounded">My Cart </h2>
+<table class="shadow p-3 mb-5 bg-light rounded" style="width: 1200px; margin: auto;">
+  <tr>
+    <th>Gelato</th>
+    <th>image</th>
+    <th>price</th>
+    <th>Quantity</th>
+    <th>Total</th>
+  </tr>
+  <tr *ngFor="let a of anitas">
+    <td>{{a.anitas.prodcutName}}</td>
+    <td><img class="img-thumbnail" src="{{a.anitas.img}}" alt=""></td>
+    <td>{{a.anitas.price| currency}}</td>
+    <td>{{a.qty}}</td>
+    <td>{{a.anitas.price * a.qty |currency}}</td>
+   
+  </tr>
+</table>
+<h3 class="text-center mb-4">Total: {{total | currency}} </h3>
+<button *ngIf="isLogedin" (click)="checkLog()">Checkout</button-->

@@ -1,0 +1,12 @@
+.footer {
+    position: fixed;
+    left: 10px;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #faf7f7;
+    width: 100%;
+    font-family:  cursive;
+    
+
+ }

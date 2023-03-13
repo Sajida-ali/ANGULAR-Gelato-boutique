@@ -1,0 +1,309 @@
+{
+  "Users": [
+    {
+      "name": "lala",
+      "email": "lala@gmail.com",
+      "password": "1234321",
+      "gender": "female",
+      "date": "1980-10-10",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNoZaQ0WjPU96ZN5YzeMoZWDD0GqOrIvRy-w&usqp=CAU",
+      "id": 1
+    },
+    {
+      "name": "sajida",
+      "email": "sajida.zoher@gmail.com",
+      "password": "1234",
+      "gender": "female",
+      "date": "2023-02-21",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNoZaQ0WjPU96ZN5YzeMoZWDD0GqOrIvRy-w&usqp=CAU",
+      "id": 2
+    },
+    {
+      "name": "nimer kasem",
+      "email": "nimerkasem7@gmail.com",
+      "password": "1234",
+      "gender": "male",
+      "date": "1999-02-02",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSos8WJJwI6qi-oyEqumgt5myV32u4aP3FvUA&usqp=CAU",
+      "id": 3
+    },
+    {
+      "name": "aaa",
+      "email": "aaa@gmail.com",
+      "password": "1111",
+      "gender": "female",
+      "date": "2023-02-22",
+      "img": "https://i.imgur.com/wvxPV9S.png",
+      "id": 4
+    }
+  ],
+  "Flavors": [
+    {
+      "code": 1,
+      "prodcutName": "MACADAMIA",
+      "img": "assets/img/flavoress/maca.jpg",
+      "flavor": "Macadamia with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 2,
+      "prodcutName": "MACADAMIA",
+      "img": "assets/img/flavoress/macadamia.jpg",
+      "flavor": "Macadamia with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 30,
+      "prodcutName": "MACADAMIA",
+      "img": "assets/img/flavoress/m1.png",
+      "flavor": "Macadamia with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 3,
+      "prodcutName": "ALMONDS",
+      "img": "assets/img/icecream.jpg",
+      "flavor": "CHOCOLATE ALMONDS AND CARAMEL",
+      "price": 150
+    },
+    {
+      "code": 10,
+      "prodcutName": "ALMONDS",
+      "img": "assets/img/flavoress/al.png",
+      "flavor": "CHOCOLATE ALMONDS AND CARAMEL",
+      "price": 150
+    },
+    {
+      "code": 4,
+      "prodcutName": "ALMONDS",
+      "img": "assets/img/flavoress/almond.jpg",
+      "flavor": "CHOCOLATE ALMONDS AND CARAMEL",
+      "price": 150
+    },
+    {
+      "code": 5,
+      "prodcutName": "PISTACHIO",
+      "img": "assets/img/flavoress/PISTACHIO.jpeg",
+      "flavor": "pistachio",
+      "price": 150
+    },
+    {
+      "code": 6,
+      "prodcutName": "PISTACHIO",
+      "img": "assets/img/flavoress/f2.png",
+      "flavor": "pistachio",
+      "price": 150
+    },
+    {
+      "code": 15,
+      "prodcutName": "PISTACHIO",
+      "img": "assets/img/flavoress/f1.png",
+      "flavor": "pistachio",
+      "price": 150
+    },
+    {
+      "code": 7,
+      "prodcutName": "BLACK FOREST",
+      "img": "assets/img/flavoress/forestfruit.jpg",
+      "flavor": "black forest with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 8,
+      "prodcutName": "BLACK FOREST",
+      "img": "assets/img/flavoress/forest.jpg",
+      "flavor": "black forest with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 9,
+      "prodcutName": "BLACK FOREST",
+      "img": "assets/img/flavoress/ff.png",
+      "flavor": "black forest with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 25,
+      "prodcutName": "PISTACHIO",
+      "img": "assets/img/flavoress/f2.png",
+      "flavor": "pistachio",
+      "price": 120
+    }
+  ],
+  "FORESTFRUIT": [
+    {
+      "code": 7,
+      "prodcutName": "BLACK FOREST",
+      "img": "assets/img/flavoress/forestfruit.jpg",
+      "flavor": "black forest with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 8,
+      "prodcutName": "BLACK FOREST",
+      "img": "assets/img/flavoress/forest.jpg",
+      "flavor": "black forest with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 9,
+      "prodcutName": "BLACK FOREST",
+      "img": "assets/img/flavoress/ff.png",
+      "flavor": "black forest with white chocolate",
+      "price": 150
+    }
+  ],
+  "PISTACHIO": [
+    {
+      "code": 5,
+      "prodcutName": "PISTACHIO",
+      "img": "assets/img/flavoress/PISTACHIO.jpeg",
+      "flavor": "pistachio",
+      "price": 150
+    },
+    {
+      "code": 6,
+      "prodcutName": "PISTACHIO",
+      "img": "assets/img/flavoress/f2.png",
+      "flavor": "pistachio",
+      "price": 150
+    },
+    {
+      "code": 15,
+      "prodcutName": "PISTACHIO",
+      "img": "assets/img/flavoress/f1.png",
+      "flavor": "pistachio",
+      "price": 150
+    }
+  ],
+  "ALMONDS": [
+    {
+      "code": 3,
+      "prodcutName": "ALMONDS",
+      "img": "assets/img/icecream.jpg",
+      "flavor": "CHOCOLATE ALMONDS AND CARAMEL",
+      "price": 150
+    },
+    {
+      "code": 10,
+      "prodcutName": "ALMONDS",
+      "img": "assets/img/flavoress/al.png",
+      "flavor": "CHOCOLATE ALMONDS AND CARAMEL",
+      "price": 150
+    },
+    {
+      "code": 4,
+      "prodcutName": "ALMONDS",
+      "img": "assets/img/flavoress/almond.jpg",
+      "flavor": "CHOCOLATE ALMONDS AND CARAMEL",
+      "price": 150
+    }
+  ],
+  "MACADAMIA": [
+    {
+      "code": 1,
+      "prodcutName": "MACADAMIA",
+      "img": "assets/img/flavoress/maca.jpg",
+      "flavor": "Macadamia with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 2,
+      "prodcutName": "MACADAMIA",
+      "img": "assets/img/flavoress/macadamia.jpg",
+      "flavor": "Macadamia with white chocolate",
+      "price": 150
+    },
+    {
+      "code": 30,
+      "prodcutName": "MACADAMIA",
+      "img": "assets/img/flavoress/m1.png",
+      "flavor": "Macadamia with white chocolate",
+      "price": 150
+    }
+  ],
+  "MILKSHAKE": [
+    {
+      "code": 99,
+      "prodcutName": "MilkShake",
+      "img": "assets/img/flavoress/m.png",
+      "flavor": "flavor you like",
+      "price": 25
+    },
+    {
+      "code": 98,
+      "prodcutName": "MilkShake",
+      "img": "assets/img/flavoress/mm.png",
+      "flavor": "flavor you like",
+      "price": 25
+    },
+    {
+      "code": 97,
+      "prodcutName": "MilkShake",
+      "img": "assets/img/flavoress/mmm.png",
+      "flavor": "flavor you like",
+      "price": 25
+    }
+  ],
+  "YOGURT": [
+    {
+      "code": 88,
+      "prodcutName": "Yogurt",
+      "img": "assets/img/flavoress/y.png",
+      "flavor": "chocolatte and vanilla",
+      "price": 25
+    },
+    {
+      "code": 87,
+      "prodcutName": "Yogurt",
+      "img": "assets/img/flavoress/yo.png",
+      "flavor": "Toppings for yogurt",
+      "price": 0
+    },
+    {
+      "code": 86,
+      "prodcutName": "Yogurt",
+      "img": "assets/img/flavoress/yyy.png",
+      "flavor": "NO Sugar",
+      "price": 25
+    }
+  ],
+  "HomeProduct": [
+    {
+      "code": 11,
+      "prodcutName": "Ice cream",
+      "img": "cream",
+      "flavor": "CHOCOLATE ALMONDS AND CARAMEL",
+      "price": 0
+    },
+    {
+      "code": 22,
+      "prodcutName": "Ice cream",
+      "img": "SUGAR FREE",
+      "flavor": "SUGAR FREE CHOCOLATE",
+      "price": 0
+    },
+    {
+      "code": 33,
+      "prodcutName": "Yogurt",
+      "img": "acaii",
+      "flavor": "acaii",
+      "price": 0
+    },
+    {
+      "code": 44,
+      "prodcutName": "Ice cream",
+      "img": "vegan",
+      "flavor": "STRAWBERRY",
+      "price": 0
+    },
+    {
+      "code": 55,
+      "prodcutName": "Ice cream",
+      "img": "cream",
+      "flavor": "MASCARPONE RICOTTA STRAWBERRIES",
+      "price": 0
+    }
+  ],
+  "cart": []
+}

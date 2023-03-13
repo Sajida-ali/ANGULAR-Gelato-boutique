@@ -1,0 +1,40 @@
+* {
+    margin: auto;
+    padding: 0;
+    
+}
+.card {
+    width: 350px;
+    background-color: rgb(57, 48, 48);
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.image img {
+    transition: all 0.5s
+}
+
+.card:hover .image img {
+    transform: scale(1.5)
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.idd {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 12px
+}
+
+.mail {
+    font-size: 22px;
+    font-weight: bold
+}

@@ -1,0 +1,10 @@
+
+<div class="col" *ngFor="let anita of a" style="float:right; width: 370px">
+  <div class="card" >
+   <img src = {{anita.img}} alt="img" style="width:100% ; height: 320px;">
+    <h1>{{anita.prodcutName}}</h1>
+    <p class="price">{{anita.price}}</p>
+    <p>{{anita.flavor}}</p>
+    <p><button class="btn btn-primary" (click)="addtocart(anita)">add to cart</button></p>
+  </div>
+</div>
